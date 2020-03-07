@@ -11,7 +11,8 @@ app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 # database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'dq.sqlite')
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'dq.sqlite')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:chingalo@localhost:3306/shop'
 app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False
 
 # Initialize database
