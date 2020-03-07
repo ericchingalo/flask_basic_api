@@ -1,4 +1,4 @@
-# FLASK_BASIC_aPI
+# FLASK_BASIC_API
 
 This is a flask application that creates a simple and basic api to perform CRUD operations on a shop database.
 
